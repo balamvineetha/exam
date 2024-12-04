@@ -1,0 +1,21 @@
+package Exam.Exam.spring;
+
+public class Game 
+{
+String name;
+String gname;
+String sname;
+int audience;
+public Game(String name, String gname, String sname, int audience) {
+	super();
+	this.name = name;
+	this.gname = gname;
+	this.sname = sname;
+	this.audience = audience;
+}
+@Override
+public String toString() {
+	return "Game [name=" + name + ", gname=" + gname + ", sname=" + sname + ", audience=" + audience + "]";
+}
+
+}
