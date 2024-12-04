@@ -1,0 +1,15 @@
+package Exam.Exam.spring;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class config {
+	@Bean
+	Game game()
+	{
+	Game g=new Game("baji","kabadi","ntr stadium",500);
+	return g;
+
+}
+}
